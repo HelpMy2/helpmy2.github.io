@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аппаратура - Tokugawa Projects</title>
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">
+                <div class="logo-placeholder">[ logo.png ]</div>
+            </a>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><div class="nav-separator"></div></li>
+                <li><a href="index.html">Аппаратура</a></li>
+                <li><a href="../software/index.html">Программы</a></li>
+                <li><a href="../about/index.html">Обо мне</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-content">
+            <h1>Аппаратура</h1>
+            <p>[ Описание раздела аппаратных проектов. Микроконтроллеры, схемы, DIY-проекты. ]</p>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-card-image placeholder">[ img ]</div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">[ Дата ]</div>
+                        <h3>[ Проект 1 ]</h3>
+                        <p>[ Описание. ]</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-image placeholder">[ img ]</div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">[ Дата ]</div>
+                        <h3>[ Проект 2 ]</h3>
+                        <p>[ Описание. ]</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-image placeholder">[ img ]</div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">[ Дата ]</div>
+                        <h3>[ Проект 3 ]</h3>
+                        <p>[ Описание. ]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="logo-placeholder">[ logo.png ]</div>
+                </div>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i><a href="tel:+79251937372">+7 (925) 193-73-72</a></li>
+                    <li><i class="fab fa-telegram"></i><a href="https://t.me/Yaroslav_PV" target="_blank">@Yaroslav_PV</a></li>
+                    <li><i class="fab fa-telegram"></i><a href="https://t.me/hmsweblog" target="_blank">Канал</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:public_helpMy2@mail.ru">public_helpMy2@mail.ru</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Projects</h4>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 helpmy2</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

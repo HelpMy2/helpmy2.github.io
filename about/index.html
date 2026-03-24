@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне - Tokugawa Projects</title>
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">
+                <div class="logo-placeholder">[ logo.png ]</div>
+            </a>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><div class="nav-separator"></div></li>
+                <li><a href="../hardware/index.html">Аппаратура</a></li>
+                <li><a href="../software/index.html">Программы</a></li>
+                <li><a href="index.html">Обо мне</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-content">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>Обо мне</h1>
+                    <p>[ Подробное описание о себе. Расскажите о вашем бэкграунде, образовании, опыте работы. ]</p>
+                    <p>[ Опишите ваши интересы в технике и программировании. Какие технологии вам нравятся. ]</p>
+                    <p>[ Дополнительная информация: хобби, цели, планы на будущее. ]</p>
+                    
+                    <h3 style="margin-top: 20px; margin-bottom: 10px; color: #292965;">Навыки</h3>
+                    <p>[ Список технических навыков: языки программирования, фреймворки, инструменты. ]</p>
+                    
+                    <h3 style="margin-top: 20px; margin-bottom: 10px; color: #292965;">Контакты</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 8px;">
+                            <i class="fas fa-phone" style="color: #292965; width: 18px;"></i>
+                            <a href="tel:+79251937372" style="color: #333; text-decoration: none;">+7 (925) 193-73-72</a>
+                        </li>
+                        <li style="margin-bottom: 8px;">
+                            <i class="fab fa-telegram" style="color: #292965; width: 18px;"></i>
+                            <a href="https://t.me/Yaroslav_PV" target="_blank" style="color: #333; text-decoration: none;">@Yaroslav_PV</a>
+                        </li>
+                        <li style="margin-bottom: 8px;">
+                            <i class="fab fa-telegram" style="color: #292965; width: 18px;"></i>
+                            <a href="https://t.me/hmsweblog" target="_blank" style="color: #333; text-decoration: none;">Telegram канал</a>
+                        </li>
+                        <li style="margin-bottom: 8px;">
+                            <i class="fas fa-envelope" style="color: #292965; width: 18px;"></i>
+                            <a href="mailto:public_helpMy2@mail.ru" style="color: #333; text-decoration: none;">public_helpMy2@mail.ru</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder">[ фото ]</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="logo-placeholder">[ logo.png ]</div>
+                </div>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i><a href="tel:+79251937372">+7 (925) 193-73-72</a></li>
+                    <li><i class="fab fa-telegram"></i><a href="https://t.me/Yaroslav_PV" target="_blank">@Yaroslav_PV</a></li>
+                    <li><i class="fab fa-telegram"></i><a href="https://t.me/hmsweblog" target="_blank">Канал</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:public_helpMy2@mail.ru">public_helpMy2@mail.ru</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Projects</h4>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 helpmy2</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

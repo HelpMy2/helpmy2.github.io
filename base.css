@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-/* Container - 8% padding */
+/* Container - 10% padding */
 .container {
     width: 100%;
     padding: 0 10%;
@@ -205,7 +205,7 @@ main {
 /* Services Section (Nothing I do) */
 .services-section {
     background: white;
-    padding: 30px 8%;
+    padding: 30px 10%;
 }
 
 .services-section .section-title {
@@ -229,7 +229,7 @@ main {
 
 /* News/Interests Section - wider margins, centered, 1:1 images */
 .news-section {
-    padding: 30px 8%;
+    padding: 30px 10%;
 }
 
 .news-section .section-title {
@@ -453,7 +453,7 @@ footer {
 @media (max-width: 992px) {
     .carousel-slide {
         flex-direction: column;
-        padding: 3% 8%;
+        padding: 3% 10%;
     }
     
     .carousel-text,
@@ -567,7 +567,7 @@ footer {
 
 /* Page content */
 .page-content {
-    padding: 20px 8%;
+    padding: 20px 10%;
     min-height: calc(100vh - 200px);
 }
 

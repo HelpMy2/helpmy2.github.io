@@ -1,7 +1,7 @@
 /* Reset & Base Styles */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 10%;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -230,6 +230,7 @@ main {
 /* News/Interests Section - wider margins, centered, 1:1 images */
 .news-section {
     padding: 30px 10%;
+    background-color: #e9edf5;
 }
 
 .news-section .section-title {

@@ -48,15 +48,6 @@ nav {
     width: auto;
 }
 
-.logo-placeholder {
-    background: rgba(255,255,255,0.15);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 13px;
-    color: white;
-    border: 1px dashed rgba(255,255,255,0.4);
-}
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -79,13 +70,6 @@ nav {
 
 .nav-links a:hover {
     background-color: rgba(255, 255, 255, 0.15);
-}
-
-.nav-separator {
-    width: 1px;
-    height: 24px;
-    background-color: rgba(255, 255, 255, 0.3);
-    margin: 0 8px;
 }
 
 /* Main content */
@@ -260,6 +244,8 @@ main {
 
 .news-card-image {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     aspect-ratio: 1 / 1;
 }
 
@@ -392,13 +378,9 @@ footer {
 }
 
 .footer-logo img {
-    height: 28px;
+    height: 48px;
+    margin-bottom: 12px;
     width: auto;
-}
-
-.footer-logo .logo-placeholder {
-    font-size: 12px;
-    padding: 4px 8px;
 }
 
 .footer-contact {
@@ -559,10 +541,6 @@ footer {
     
     .nav-links.active li {
         margin: 0 0 8px 0;
-    }
-    
-    .nav-separator {
-        display: none;
     }
 }
 

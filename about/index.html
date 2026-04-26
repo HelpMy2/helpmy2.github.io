@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Обо мне - Tokugawa Projects</title>
+    <title>Обо мне</title>
     <link rel="stylesheet" href="../base.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="/images/favicon.ico">
 </head>
 <body>
     <header>
         <nav>
             <a href="../index.html" class="logo">
-                <div class="logo-placeholder">[ logo.png ]</div>
+                <div class="logo"><img src="/images/favicon.ico"></div>
             </a>
             <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="../hardware/index.html">Аппаратура</a></li>
-                <li><a href="../software/index.html">Программы</a></li>
+                <li><a href="/hardware/index.html">Аппаратура</a></li>
+                <li><a href="/software/index.html">Программы</a></li>
                 <li><a href="index.html">Обо мне</a></li>
             </ul>
         </nav>
@@ -29,13 +30,18 @@
             <div class="about-content">
                 <div class="about-text">
                     <h1>Обо мне</h1>
-                    <p>[ Подробное описание о себе. Расскажите о вашем бэкграунде, образовании, опыте работы. ]</p>
-                    <p>[ Опишите ваши интересы в технике и программировании. Какие технологии вам нравятся. ]</p>
-                    <p>[ Дополнительная информация: хобби, цели, планы на будущее. ]</p>
-                    
+                        <p>Я - Пунгин Ярослав (a.k.a. helpMy) разработчик ЭПиУ на микрокотроллерах STM32 и MIK32.</p>
+                        <p>В текущий момент работаю инженером-программистом 3 кат., разрабатываю прототипы медицинского оборудования.</p>
+                        <p>Электроникой увлекаюсь с раннего возраста, профессионально начал изучать в восьмом классе в рамках участия в WorldSkills Russia Junior Электроника (2022, I место). 
+                            После девятого класса поступил в Колледж Связи №54 на Монтажника ЭПиУ (да  немного не то чем я занимаюсь, но меня интересовали конкретные преподаватели  и то чему они меня научили).
+                            Обучаясь в колледже снова пошёл на профф соревнования (Профессионалы 2024, II место) в результате чего подтянул знания в NI Multisim, пересел в Arduino на stm32f4 и научился трассировке в Altium Designer.
+                        </p>
                     <h3 style="margin-top: 20px; margin-bottom: 10px; color: #292965;">Навыки</h3>
-                    <p>[ Список технических навыков: языки программирования, фреймворки, инструменты. ]</p>
-                    
+                        <p>STM32 - CMSIS/HAL (в зависимости от задач) в проекте сгенерированном в CUBE MX.</p>
+                        <p>Altium Designer (20+) - трассировка простых устройств с SMD (ssop/soic, 200 компонентов, фигурные платы до 100x100 мм).</p>
+                        <p>NI Multisim - простые схемы, transient/AC sweep.</p>
+                        <p>MIK32 - в изучении, пока только <a href="https://gitflic.ru/project/mikron-mik32/mik32v2-shared/merge-request/6">нашёл ошибку</a> в SDK.</p>
+                        <p>AVR - к сожалению, из проектов: "Бегущая строка" из RGB матрицы на регистрах без сторонних библиотек с управлением по UART.</p>
                     <h3 style="margin-top: 20px; margin-bottom: 10px; color: #292965;">Контакты</h3>
                     <ul style="list-style: none; padding: 0;">
                         <li style="margin-bottom: 8px;">
@@ -57,7 +63,7 @@
                     </ul>
                 </div>
                 <div class="about-image">
-                    <div class="placeholder">[ фото ]</div>
+                    <div class="placeholder">[ Фото будет, честно ]</div>
                 </div>
             </div>
         </div>
@@ -67,7 +73,7 @@
         <div class="footer-content">
             <div class="footer-section">
                 <div class="footer-logo">
-                    <div class="logo-placeholder">[ logo.png ]</div>
+                    <div class="logo"><img src="/images/favicon.ico"><text>Пунгин Я.В.</text></div>
                 </div>
                 <ul class="footer-contact">
                     <li><i class="fas fa-phone"></i><a href="tel:+79251937372">+7 (925) 193-73-72</a></li>
@@ -78,15 +84,15 @@
             </div>
             <div class="footer-section">
                 <h4>Projects</h4>
-                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Скоро ]</p>
             </div>
             <div class="footer-section">
                 <h4>Links</h4>
-                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Ссылки ]</p>
+                <p style="color: rgba(255,255,255,0.6); font-size: 13px;">[ Скоро ]</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 helpmy2</p>
+            <p>&copy; 2026 helpmy2</p>
         </div>
     </footer>
 
